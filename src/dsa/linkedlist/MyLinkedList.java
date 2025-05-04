@@ -125,10 +125,10 @@ public class MyLinkedList {
         //myLinkedList.print();
 
         myLinkedList.insert(1);
-        myLinkedList.insert(2);
-        myLinkedList.insert(3);
+        myLinkedList.insert(1);
         myLinkedList.insert(2);
         myLinkedList.insert(1);
+       // myLinkedList.insert(1);
 
         System.out.println("Is Palindrome: " + myLinkedList.isPalindrome(myLinkedList.head));
 
